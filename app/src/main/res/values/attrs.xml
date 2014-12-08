@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TriangleView">
+        <attr name="tr_direction" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="up" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="down" value="3"/>
+        </attr>
+        <attr name="tr_color" format="color"/>
+    </declare-styleable>
+
+</resources>

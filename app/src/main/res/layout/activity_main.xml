@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fafafa"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <com.itaihanski.triangleview.TriangleView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        app:tr_direction="left"
+        app:tr_color="#F44336"/>
+
+    <com.itaihanski.triangleview.TriangleView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        app:tr_direction="down"
+        app:tr_color="#2196F3"/>
+
+    <com.itaihanski.triangleview.TriangleView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        app:tr_direction="right"
+        app:tr_color="#4CAF50"/>
+
+    <com.itaihanski.triangleview.TriangleView
+        android:id="@+id/triangle_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>
