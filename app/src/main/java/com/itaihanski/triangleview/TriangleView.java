@@ -109,6 +109,7 @@ public class TriangleView extends View {
                 mPaint.setColor(color);
             }
             mTrianglePath = null;
+            invalidate();
         }
     }
 
@@ -121,6 +122,7 @@ public class TriangleView extends View {
             mDirection = direction;
             mTrianglePath = null;
         }
+        invalidate();
     }
 
     //
