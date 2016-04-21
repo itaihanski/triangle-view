@@ -92,6 +92,7 @@ public class TriangleView extends View {
         mPaint = new Paint();
         mPaint.setStyle(Paint.Style.FILL);
         mPaint.setColor(mColor);
+        mPaint.setAntiAlias(true);
     }
 
     //
